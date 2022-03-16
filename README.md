@@ -12,7 +12,9 @@ OpenCV already contains many pre-trained classifiers for face, eyes, smile etc.
 2. opencv
 ### Step 2: Defining functionalities
 In this step, we will define all the functions which will be linked afterward to different Buttons.
+
 `faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml')`
+
 This is the line that loads the "classifier" (that must be in a directory named "Cascades/", under your project directory).
 Then, we will set our camera and inside the loop, load our input video in grayscale mode (same we saw before).
 Now we must call our classifier function, passing it some very important parameters, as scale factor, number of neighbors and minimum size of the detected face./
